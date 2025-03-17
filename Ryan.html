@@ -4,143 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan | Portfólio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <!-- Referência à biblioteca Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="img/Kali_Logo.png">
+    <link rel="stylesheet" href="ryan.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="translate.js">
 </head>
 <body>
-    <!-- Article passivel a alteração dentro do código, precisamente entrará dentro do main em algum momento, por hora deixarei neste local ao topo da estrutura  -->
-    <article>Ryan | Portfólio</article>
-    <!-- Cabeçalho do site e principal aréa atuante ( back end )-->
-    <header>
-        <h1>Desenvolvedor de Software Back End <i class="bi bi-laptop"></i></h1>
-        
-        <!-- Navegação do site/seções principais utilizando o nav --> 
+    <header> <!-- Cabeçalho do site e principal area atuante -->
+        <div class="area-atuante">
+            <h1>Desenvolvedor de Software Back End</h1>
+        </div>
         <nav>
-            <ul>
+            <ul> <!-- Menu de navegação -->
                 <li><a href="#sobre">Sobre <i class="bi bi-person"></i></a></li>
-                <li><a href="#stacks">Stacks <i class="bi bi-stack"></i></a></li>
                 <li><a href="#experiencia">Experiência <i class="bi bi-briefcase"></i></a></li>
+                <li><a href="#stacks">Tecnologias <i class="bi bi-stack"></i></a></li>
                 <li><a href="#projetos">Projetos <i class="bi bi-folder"></i></a></li>
-                <li><a href="#educacao">Educação <i class="bi bi-book"></i></a></li>
-                <li><a href="#cursos">Cursos <i class="bi bi-award"></i></a></li>
-                <li><a href="#idiomas">Idiomas <i class="bi bi-globe"></i></a></li>
+                <li><a href="#redes">Redes Sociais <i class="bi bi-award"></i></a></li>
                 <li><a href="#contato">Contato <i class="bi bi-envelope"></i></a></li>
             </ul>
-        </nav>
+        </nav> <!-- Fim do menu de navegação -->
+        <!-- criação do article de forma objetiva -->
+        <article>Soluções Inteligentes, Otimizar Fluxos e Automatizar Processos</article>
     </header>
-    
-    <main>
-        <!-- Seção sobre mim, aprendizados e um pouco de onde sou  -->
-        <section id="sobre">
-            <h2>Sobre mim <i class="bi bi-info-circle"></i></h2>
-            <img src="img/Kali_Logo.png" alt="Kali-linux_logo_verde">
-            <p>
-                Meu nome é Ryan, tenho 19 anos, moro na Zona Norte de São Paulo e sou apaixonado por tecnologia há alguns anos.
-                Sou um desenvolvedor de software iniciante com experiência em Back End, focado em <mark>Python, Automações e Machine Learning</mark>.
-                Gosto de trabalhar em equipe, escrever código limpo e testável, além de seguir as melhores práticas de desenvolvimento.
-            </p>
-            <p>
-                Atualmente, estou estudando <strong>JavaScript e desenvolvimento Front End</strong>, aprimorando minhas habilidades no dia a dia e na faculdade.
-            </p>
+
+    <main> 
+        <section id="sobre"> 
+             <h2>Olá, eu sou Ryan Rodrigues! <i class="bi bi-info-circle"></i></h2> <!-- Inicio da seção sobre mim -->
+            <div class="sobre_ryan">
+                <p>
+                    Tenho 19 anos, moro na cidade de São Paulo e sou estudante de Análise e Desenvolvimento de Sistemas na faculdade IMPACTA.
+                    Minha principal especialidade está diretamente atrelada ao desenvolvimento de softwares Back End, utilizando Python como linguagem principal, focado em <mark>Automações e Machine Learning</mark>.
+                    Gosto de trabalhar em equipe, escrever código limpo e testável, além de seguir as melhores práticas de desenvolvimento. Atualmente estou estudando <strong>JavaScript e Desenvolvimento Front End</strong>.
+                </p>
+                <img src="img/Ryan_png.png" alt="Ryan Rodrigues" width="200px" class="ryan_img">
+            </div>
         </section>
-        
-        <!-- Seção de stacks/tecnologias que aprendi ou estou aprendendo atualmente -->
-        <section id="stacks">
-            <h2>Stacks <i class="bi bi-tools"></i></h2>
-            <ul>
-                <li><i class="bi bi-file-earmark-code"></i> Python</li>
-                <li><i class="bi bi-file-earmark-code"></i> JavaScript</li>
-                <li><i class="bi bi-file-earmark-code"></i> HTML5</li>
-                <li><i class="bi bi-file-earmark-code"></i> CSS3</li>
-                <li><i class="bi bi-file-earmark-code"></i> SQL</li>
-                <li><i class="bi bi-file-earmark-code"></i> AWS</li>
-            </ul>
-        </section>
-        
-        <!-- Seção de experiências práticas e feitos realizados -->
+        <!-- seção sobre minha experiência profissional e afora do mercado -->
         <section id="experiencia">
             <h2>Experiência <i class="bi bi-briefcase"></i></h2>
-            <p>
-                Além de programação, trabalho no setor de atendimento ao cliente na empresa Leroy Merlin, fora isso, exploro bastante a plataforma Discord, desenvolvendo sistemas de moderação e segurança para usuários. 
-                Estou trabalhando em um projeto inspirado na integração Mee6, com um toque de Kali Linux e funcionalidades customizadas, 
-                incluindo acesso remoto e controle avançado de servidores na plataforma. Mais detalhes sobre esse projeto podem ser verificados na seção <strong>Projetos</strong> abaixo!
-            </p>
+            <div class="experiencia_atual">
+                <img src="img/Leroy_Equipe.jpg" alt="Equipe_Leroy"><p>
+                    Além de programação, trabalho no setor de atendimento ao cliente na empresa Leroy Merlin, onde ja criei automações para otimizar processos e melhorar a produtividade, utilizando Python e uma extensão do google chamada de MAGICAL, que permite a execução de scripts diretamente integrados ao CRM utilizado pela empresa, o Salesforce. Fora isso, exploro bastante a plataforma Discord, desenvolvendo sistemas de moderação e segurança para usuários. 
+                </p>
+            </div>
         </section>
-        
-        <!-- Seção de projetos. Possui um unico projeto principal ate o momento, nomeado de kali bot -->
+        <!-- seção sobre as tecnologias que eu utilizo  -->
+        <section id="stacks">
+            <h2>Tecnologias <i class="bi bi-tools"></i></h2>
+            <ul class="stacks">
+                <li><i class="bx bxl-python"></i></li>
+                <li><i class="bx bxl-javascript"></i></li>
+                <li><i class="bx bxl-figma"></i></li>
+                <li><i class="bx bxs-data"></i></li>
+                <li><i class="bx bxl-aws"></i></li>
+            </ul>
+        </section>
+        <!-- seção de projetos pessoais e integrados que ja realizei -->
         <section id="projetos">
             <h2>Projetos <i class="bi bi-file-earmark-text"></i></h2>
             <ul>
                 <li>
-                    <h3>Kali Bot <i class="bi bi-robot"></i></h3>
+                    <h3>Kali Bot <i class="bx bxl-python"></i></h3>
+                    <img class ="projeto_kali" src="img/Projeto_Kali_bot.jpg" alt="Projeto Kali Bot">
+                    
                     <p>
-                        O <strong>Mee6</strong> é um sistema avançado de moderação para servidores Discord, permitindo que administradores gerenciem canais, comandos e segurança de seus servidores.
-                    </p>
-                    <p>
-                        Neste projeto, eu desenvolvi uma integração personalizada entre o <strong>Mee6 e o Kali Linux</strong>, permitindo o gerenciamento automatizado de permissões, detecção de atividades suspeitas 
-                        e aplicação de ações moderativas sem necessidade de intervenção manual. Além disso, implementei funcionalidades exclusivas como logs automatizados, execução de comandos remotos e 
+                        Neste projeto, eu desenvolvi uma integração personalizada e inspirada pelo bot <strong>Mee6 e o Kali Linux</strong>, permitindo o gerenciamento automatizado de permissões, detecção de atividades suspeitas 
+                        e aplicação de ações moderativas sem necessidade de intervenção manual. 
+                        Além disso, implementei funcionalidades exclusivas como logs automatizados, execução de comandos remotos e 
                         relatórios detalhados diretamente no Discord.
                     </p>
                     <p>
-                        Esse sistema reforça a segurança do servidor e oferece um controle total sobre as interações e permissões de usuários dentro da plataforma. 
-
-                        <p><strong>Repositório:</strong> <a href="https://github.com/Ryanditko/Kali" target="_blank">Kali Bot</a></p>
-
+                        Esse sistema reforça a segurança do servidor e oferece um controle total sobre as interações e permissões de usuários dentro da plataforma. <br>
+                        <strong>Repositório:</strong> <a href="https://github.com/Ryanditko/Kali" target="_blank">Kali Bot</a>
                     </p>
-                    <li>
-                        <h3> Kali Store <i class ="bi bi-store"></i></h3>
-                        <p> A kali Store foi um projeto mais recente meu, onde comecei a desenvolver - lo em aula para criação de boas praticas de criação de arquivos na web, novamente dando vida ao nome. A kali se trata de uma loja fictícia que vende produtos de segurança, tecnologia e software, se destacando no quesito de produtos Open Source. </p>
-
-                        <p><strong>Repositório:</strong> <a href="https://github.com/Ryanditko/Kali-Store" target="_blank">Kali Store</a></p>
-
-                    </li>
+                </li>
+                <li>
+                    <h3>Kali Store <i class="bx bxl-html5"></i><i class="bx bxl-css3"></i><i class="bx bxl-javascript"></i></h3>
+                    <img src="img/Projeto_Kali_store.jpg" alt="Loja de software">
+                    <p>A Kali Store foi um projeto mais recente meu, onde comecei a desenvolver em aula para criação de boas práticas de criação de arquivos na web. A Kali se trata de uma loja fictícia que vende produtos de segurança, tecnologia e software, se destacando no quesito de produtos Open Source.</p>
+                    <p><strong>Repositório:</strong> <a href="https://github.com/Ryanditko/Kali-Store" target="_blank">Kali Store</a></p>
+                </li>
+                <li>
+                    <h3>Dataset Statistics | Openpyxl <i class="bx bxl-python"> <i class="bx bxs-data"></i></i></h3>
+                    <img src="img/Projeto_Dataset.jpg" alt="Projeto dataset para automatizar dados" class="projeto_dataset">
+                    <p>
+                        O projeto Dataset foi desenvolvido para aprimorar minhas habilidades em Python e manipulação de planilhas Excel. Através da biblioteca Openpyxl, criei um sistema de análise de dados que lê, processa e gera relatórios a partir de planilhas Excel. Ao ser integrado ao MAGICAL google extension, o sistema permite a execução de um comando que recebe toda essa base de dados. 
+                        <p>
+                            <strong>Repositório:</strong> <a href="https://github.com/Ryanditko/Openpyxl" target="_blank">Dataset Statistics</a>
+                        </p>
+                    </p>
                 </li>
             </ul>
         </section>
-        
-        <!-- Seção de educação/Onde me formei e estudei durante o fundamental e ensino médio -->
-        <section id="educacao">
-            <h2>Educação <i class="bi bi-patch-check"></i> </h2>
+        <!-- seção de redes sociais para que possam me encontrar -->
+        <section id="redes">
+            <h2>Redes Sociais <i class="bi bi-wifi"></i></h2>
             <ul>
-                <li>Ensino Médio: Colégio GONDIM</li>
+                <a href="https://github.com/ryanditko" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/ryan-rodrigues-592a27313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/ryanrodriguexs" target="_blank"><i class="bi bi-instagram"></i></a>
             </ul>
         </section>
-        
-        <!-- Seção de cursos e certificações (as datas que coloquei são os anos em que realizei tais cursos) -->
-        <section id="cursos">
-            <h2>Cursos e Certificações <i class="bi bi-clipboard-check"></i></h2>
-            <ul>
-                <li>Machine Learning com Python - DataCamp (2024)</li>
-                <li>Python - IMPACTA (2024)</li>
-                <li>HTML5 - IMPACTA (2025)</li>
-                <li>CSS3 - IMPACTA (2025)</li>
-            </ul>
-        </section>
-        
-        <!-- Seção de idiomas que domino no momento -->
-        <section id="idiomas">
-            <h2>Idiomas <i class="bi bi-globe"></i></h2>
-            <ul>
-                <li>Inglês: Intermediário</li>
-            </ul>
-        </section>
-        
-        <!-- Seção de contato e redes sociais atuantes -->
+        <!-- seção de contato para que possam me mandar uma mensagem / forms -- -->
         <section id="contato">
             <h2>Contato <i class="bi bi-telephone"></i></h2>
-            <p>Email: yryurodriguess@email.com <i class="bi bi-envelope"></i></p>
-            <p>GitHub: <a href="https://github.com/ryanditko" target="_blank">Ryanditko <i class="bi bi-github"></i></a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ryan-rodrigues-592a27313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank">Ryan Rodrigues <i class="bi bi-linkedin"></i></a></p> <!-- Extenso, o endereço do link estava sendo atrelado a outro perfil -->
-            <p>Bluesky: <a href="https://bsky.app/profile/ryankali.bsky.social" target="_blank">ryankali <i class="bi bi-chat-left-text-fill"></i></a> </p>
-            <p>Instagram: <a href="https://www.instagram.com/ryanrodriguexs" target="_blank">ryanrodriguexs <i class="bi bi-instagram"></i></a></p>
-            <p>Discord: ryan_ditko <i class="bi bi-discord"></i> </p>
-            <p>Formulário para contato: <a href="https://forms.gle/example" target="_blank">Fale comigo por aqui! <i class="bi bi-pencil"></i></a></p> <!-- Forms ainda não foi feito pois exige complemento de outras stacks --> 
+            <form netlify>
+                <label for="numero_contato">Telefone: (11) 9 9999-9999</label>
+                <label for="email_contato">Para: yryurodriguess@email.com</label>
+                <input type="text" name="nome" required placeholder="Digite o seu nome">
+                <input type="email" name="email" required placeholder="Digite o seu email">
+                <textarea name="mensagem" required placeholder="Sobre o que você deseja falar?"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
-    <!-- Rodapé do site, direitos do criador e finalização do código -->
+    <!-- rodapé do site e finalização do site -->
     <footer>
-        <p>&copy; 2025. Portfólio | Desenvolvido Por Ryan Rodrigues Cordeiro. </p>
+        <meta name="description" content="Portfólio de Ryan Rodrigues - Desenvolvedor Back End focado em Python e automações">
+        <meta property="og:image" content="img/ryan-share.jpg">
+        <p>&copy; 2025 Ryan Rodrigues. Todos os direitos reservados.</p>
     </footer>
-    <button><a href="#">Voltar<i class="bi bi-arrow-up-short"></i></a></button>
+
+    <button class="botao_rolagem"><a href="#"><i class="bi bi-arrow-up-shor"></i></a>
+    </button>
+
 </body>
 </html>
