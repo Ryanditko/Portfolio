@@ -155,7 +155,7 @@ section {
   gap: 2rem;
   margin: 2rem 0;
   padding: 2rem;
-  background: linear-gradient(to right, #85f9b7, #000000, #000000);
+  background: linear-gradient(to right, #001eff, #064722, #000000);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
@@ -173,7 +173,7 @@ section {
   gap: 2rem;
   margin: 2rem 0;
   padding: 2rem;
-  background: linear-gradient(to right, #000000, #ffffff, #85f9b7);
+  background: linear-gradient(to right, #000000, #064722, #001eff);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
@@ -382,7 +382,7 @@ section {
 }
 
 #projetos li {
-  background: linear-gradient(to right, #c1ffe5, #000000, #ffffff);
+  background: linear-gradient(to right, #000738, #017c78, #064722);
   padding: 1.5rem;
   border-radius: var(--radius-md);
   margin: 1rem 0;
@@ -408,6 +408,20 @@ section {
 .stacks ul i {
   font-size: 1.0rem;
 }
+
+.stacks li{
+  color: var(--accent-200);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(to right, #85f9b7, #000738, #000738);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 #redes a{
   color: var(--accent-200);
   text-decoration: none;
@@ -417,7 +431,7 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(to right, #c1ffe5, #000000, #ffffff);
+  background: linear-gradient(to right, #85f9b7, #2238ff, #6ddbff);
   backdrop-filter: blur(4px);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -446,7 +460,7 @@ section {
 }
 
 #contato{
-  background: linear-gradient(to right, #000000, #ffffff, #85f9b7);
+  background: linear-gradient(to right, #000738, #017c78, #85f9b7);
   color: var(--secondary-100);
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
