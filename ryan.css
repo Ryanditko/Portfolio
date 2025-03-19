@@ -2,11 +2,11 @@
   --primary-100: #85f9b7;
   --primary-200: #cbffeb;
   --primary-300: #ffffff;
-  --secondary-100: #000000;
-  --secondary-200: #000000;
+  --secondary-100: #ffffff;
+  --secondary-200: #bee9ff;
   --accent-100: #000000;
-  --accent-200: #000000;
-  --success: #000000;
+  --accent-200: #ffffff;
+  --success: #0059ff;
   --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -54,7 +54,7 @@ body {
 header {
   padding: 4rem 6rem;
   text-align: center;
-  background: linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.90)), url('img/Kali_Logo.png') center/cover;
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.99)), url('img/Kali_Logo.png') center/cover;
   color: var(--primary-200);
   position: relative;
   overflow: hidden;
