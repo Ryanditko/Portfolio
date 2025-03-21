@@ -1,3 +1,4 @@
+/* Definindo as cores principais da capa via root */
 :root {
     --primary: #8563ff;
     --dark: #000000;
